@@ -4,17 +4,30 @@
   "description": "Final project of NodeJS workshop",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JairRmz/ProyectoNodeJS.git"
   },
   "keywords": [
     "api",
-    "rest",
+    "jwt",
     "express",
+    "mysql",
     "nodejs"
   ],
   "author": "Jair Ramirez",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JairRmz/ProyectoNodeJS/issues"
+  },
+  "homepage": "https://github.com/JairRmz/ProyectoNodeJS#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20"
   }
 }
